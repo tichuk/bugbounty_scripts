@@ -1,6 +1,6 @@
 echo "" && echo -n "Enter domain: " && read domain
 
-gau --subs $domain | unfurl domains>> vul1.txt
+gau --subs $domain | unfurl domains >> vul1.txt
 
 echo "" && echo "Scan with gau completed"
 
